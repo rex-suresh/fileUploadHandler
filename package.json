@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "server-http": "github:rex-suresh/server-http"
+  }
+}
