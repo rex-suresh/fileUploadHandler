@@ -37,7 +37,7 @@ const parseFormInputs = (body, boundary) => {
     const value = content.slice(valueStart, -2);
     
     from = upto;
-    inputs.push({ content, headers, value });
+    inputs.push({ headers, value });
   }
 
   return inputs;
